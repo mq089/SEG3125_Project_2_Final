@@ -1,0 +1,10 @@
+.lang{
+    color: white;
+}
+
+#item{
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    font-size: large;
+  }

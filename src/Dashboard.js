@@ -18,9 +18,6 @@ ChartJS.register(...registerables);
 const Dashboard = () => {
     
     
-    
-    
-    
     const [data] = useState({
         labels: ['Last Match', 'Last 2 Matches', 'Last 3 Matches'],
         datasets: [

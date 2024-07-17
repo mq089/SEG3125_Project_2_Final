@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import { Link  } from 'react-router-dom';
 import React, { useState } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Book = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
