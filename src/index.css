@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #333;
+  min-height: 75px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.nav-con{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: #333;
+  min-height: 75px;
+}
+
+#info{
+  display: flex;
+  align-items: center;
+  background-color: #333;
+}
+
+#item{
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  font-size: large;
+}
+
+.navbar a {
+  text-align: center;
+  text-decoration: none;
+  padding: 30px;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.navbar a:hover {
+  color: #CC0000;
+}
+
+
+
+.navbar .dropdown{
+  background-color: #333;
+}
+
+.logo{
+  width: 70%;
+  height: auto;
+  margin-left: 30px;
+  
+}
+
+
+.body{
+  background-color: #333;
+}
+
+.banner{
+  width: 100%;
+  height: auto;
+}
+
+.extra{
+  width: 90%;
+  height: auto;
+}
+
+.home-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.85); 
+  padding: 10px; 
+  border-radius: 5px; 
+  text-align:left;
+  font-size: 2.5vw;
+}
+
+.home-text{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, .75); 
+  padding: 10px; 
+  border-radius: 5px; 
+  text-align:left;
+  font-size: 1.75vw;
+}
+
+.description{
+  margin-right: 20px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.85); 
+  padding: 10px; 
+  border-radius: 10px; 
+  text-align:left;
+  font-size: 2vw;
+}
+
+
+.banner-container{
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.home-container{
+  padding: 100px;
+  position: relative;
+  text-align: center;
+}
+
+
+.rules-container{
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.rules-col{
+  position: relative;
+  text-align: left;
+  margin-top: 50px;
+  padding-top: 10px;
+  background-color: #CCCCCC; 
+  border-color: black;
+}
+
+.rule-text{
+  position: relative;
+  text-align: left;
+  color: black;
+}
+
+.top-container{
+  background-color: #CCCCCC; 
+  text-align: center;
+}
+.infoCol{
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.85); 
+  border-color: black; 
+  border-radius: 10px; 
+  text-align:left;
+  
+}
+.gen-head{
+  color: black;
+}
+.gen-desc{
+  color: black;
+}
+.info-head{
+  color: black;
+  font-weight: bold;
+}
+
+.map{
+  width: 100%;
+  height: auto;
+  
+}
+
+.info-row{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.info-col{
+  background-color: rgba(255, 255, 255, 0.85); 
+  color: black;
+  border-color: black; 
+}
+
+.birthday{
+  width: 90%;
+  height: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+}
+.company{
+  width: 90%;
+  height: 10;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+}
+
+.group{
+  width: 90%;
+  height: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+}
+
+.individual{
+  width: 90%;
+  height: auto;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.event-head{
+  text-align: center;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.package-head{
+  text-align: left;
+  font-weight: bold;
+}
+
+.equipment{
+  text-align: left;
+  color: #333;
+  font-size: x-large;
+}
+
+.packCol{
+  background-color: white; 
+  color: #f2f2f2;
+  margin: 10px;
+}
+
+.bronze-head{
+  background-color: #CC6600; 
+  margin-top: 10px;
+  font-weight: bold;  
+}
+
+.silver-head{
+  background-color: #999999; 
+  margin-top: 10px;
+  font-weight: bold; 
+}
+
+.gold-head{
+  background-color: #FFCC33; 
+  margin-top: 10px;
+  font-weight: bold; 
+}
+
+.diamond-head{
+  background-color: #66CCCC; 
+  margin-top: 10px;
+  font-weight: bold; 
+}
+
+
+.pack-desc{
+  text-align: left;
+  color: #333;
+  font-size: x-large;
+}
+
+.form{
+  align-items: center;
+  position: relative;
+  text-align: left;
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: #CCCCCC; 
+  border-color: black;
+}
+
+.label{
+  color: #333;
+}
+
+.select{
+  color: #333;
+  margin-left: 50px;
+}
+
+.label-event{
+  color: #333;
+  margin-left: 147px;
+}
+
+.label-group{
+  color: #333;
+  margin-right: 20px;
+}
+
+.select-group{
+  color: #333;
+}
+
+.book-input{
+  margin-right: 55px;
+  color: #333;
+}
+
+.bronze-label{
+  margin-right: 50px;
+  color: #333;
+}
+
+.silver-label{
+  margin-right: 50px;
+  color: #333;
+}
+
+.gold-label{
+  margin-right: 67px;
+  color: #333;
+}
+
+.diamond-label{
+  margin-right: 67px;
+  color: #333;
+}
+
+.book-btn{
+  text-align: center;
+}
+
+.address{color: #333;
+resize: none;
+}
+
+.check-input-left{
+  margin-right: 55px;
+  color: #333;
+}
+
+.check-input-right{
+  color: #333;
+}
+
+.data-col{
+  background-color: white;
+  margin-left: 1%;
+}
+.data-header{
+  color:#333;
+}
+
+.schedule{
+  color: #333;
+  background-color: #333;
+}
+
+.friend-header{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #f2f2f2;
+}
+
+.invite-btn{
+  margin-left: 10px;
+}
+
