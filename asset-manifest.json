@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/parliament_paintball/static/css/main.ec329ca1.css",
+    "main.js": "/parliament_paintball/static/js/main.a8fe4f57.js",
+    "static/js/453.b2ee975d.chunk.js": "/parliament_paintball/static/js/453.b2ee975d.chunk.js",
+    "static/media/fa-solid-900.svg": "/parliament_paintball/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/parliament_paintball/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/home.jpg": "/parliament_paintball/static/media/home.7da3528a190dd86e90d2.jpg",
+    "static/media/fa-solid-900.eot": "/parliament_paintball/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/parliament_paintball/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/fa-regular-400.svg": "/parliament_paintball/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/fa-brands-400.eot": "/parliament_paintball/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/parliament_paintball/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/parliament_paintball/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/parliament_paintball/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/parliament_paintball/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/parliament_paintball/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/birthday.jpg": "/parliament_paintball/static/media/birthday.9d1505f4c505cbffdec0.jpg",
+    "static/media/map.png": "/parliament_paintball/static/media/map.aaf34530253efc2c426a.png",
+    "static/media/individual.jpg": "/parliament_paintball/static/media/individual.ab4dc6f4eff263b90c5d.jpg",
+    "static/media/group.jpg": "/parliament_paintball/static/media/group.9a347b9f783e22715e07.jpg",
+    "static/media/home1.jpg": "/parliament_paintball/static/media/home1.99230438834f21ee7636.jpg",
+    "static/media/company.jpg": "/parliament_paintball/static/media/company.4ba9245ce340b443da88.jpg",
+    "static/media/fa-regular-400.eot": "/parliament_paintball/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/parliament_paintball/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/logo.png": "/parliament_paintball/static/media/logo.680cf8ad33d64c804d27.png",
+    "static/media/fa-regular-400.woff": "/parliament_paintball/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/parliament_paintball/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "index.html": "/parliament_paintball/index.html",
+    "main.ec329ca1.css.map": "/parliament_paintball/static/css/main.ec329ca1.css.map",
+    "main.a8fe4f57.js.map": "/parliament_paintball/static/js/main.a8fe4f57.js.map",
+    "453.b2ee975d.chunk.js.map": "/parliament_paintball/static/js/453.b2ee975d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec329ca1.css",
+    "static/js/main.a8fe4f57.js"
+  ]
+}
