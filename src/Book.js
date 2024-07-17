@@ -5,8 +5,32 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import { Link  } from 'react-router-dom';
+import React, { useState } from 'react';
 
 const Book = () => {
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+  
+    const handleEmailChange = (e) => {
+      setEmail(e.target.value);
+    };
+  
+    const validateEmail = (email) => {
+      // Simple email regex for validation
+      const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      return re.test(String(email).toLowerCase());
+    };
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      if (validateEmail(email)) {
+        setMessage('Email is valid');
+      } else {
+        setMessage('Email is invalid');
+      }
+    };
+
+
 
     return (  
         <div className="rules">
@@ -53,16 +77,17 @@ const Book = () => {
                                 <br/>
                                 <br/>
                                 <h4 className='rule-text'>Select Your Package Type</h4>
-                                <input type="radio" value="bronze" id="bronze"/>
-                                <label className='bronze-label' for="bronze">Bronze</label>
-                                <input type="radio" value="silver" id="silver"/>
-                                <label className='silver-label' for="silver">Silver</label>
-                                <br/>
-                                <input type="radio" value="gold" id="gold"/>
-                                <label className='gold-label' for="gold">Gold</label>
-                                <input type="radio" value="diamond" id="diamond"/>
-                                <label className='diamond-label' for="diamond">Diamond</label>
-
+                                <form>
+                                    <input type="radio" value="bronze" id="bronze"/>
+                                    <label className='bronze-label' for="bronze">Bronze</label>
+                                    <input type="radio" value="silver" id="silver"/>
+                                    <label className='silver-label' for="silver">Silver</label>
+                                    <br/>
+                                    <input type="radio" value="gold" id="gold"/>
+                                    <label className='gold-label' for="gold">Gold</label>
+                                    <input type="radio" value="diamond" id="diamond"/>
+                                    <label className='diamond-label' for="diamond">Diamond</label>
+                                </form>
 
                                 <br/>
                                 <br/>
@@ -72,7 +97,7 @@ const Book = () => {
                                 <br/>
                                 <br/>
                                 
-                                <input className='book-input' type="text" id="emailbox" name="email" placeholder="Email Address"/>
+                                <input className='book-input' type="text" id="emailbox" value={email} onChange={handleEmailChange} name="email" placeholder="Email Address"/>
                                 <input  className='check-input-right' type="text" id="phone" name="phone" placeholder="Phone Number"/>
                                 <br></br>
                                 <br></br>

@@ -16,6 +16,11 @@ ChartJS.register(...registerables);
 
 
 const Dashboard = () => {
+    
+    
+    
+    
+    
     const [data] = useState({
         labels: ['Last Match', 'Last 2 Matches', 'Last 3 Matches'],
         datasets: [
@@ -69,6 +74,10 @@ const Dashboard = () => {
                         </CDBContainer>
                     </Col>
                         
+                   
+                </Row>
+
+                <Row>
                     <Col>
                         <h1 className='event-head'>Invite Board</h1>
                         <div className="App">
@@ -76,6 +85,7 @@ const Dashboard = () => {
                         </div>
                     </Col>
                 </Row>
+
             </Container>
         </div>
     );

@@ -6,9 +6,13 @@ import logo from './images/logo.png'
 import {Link} from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import LanguageSwitcher from './components/LanguageSwitcher'; 
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const Navigation = () => {
+    
     return (  
         <Navbar expand="lg" className="navbar">
         <Container fluid className="nav-con">
@@ -17,14 +21,12 @@ const Navigation = () => {
                     <Nav className="mx-auto d-flex align-items-center">
                         
                         <Row>   
-                        
                         <Col>
-                       
+                            <div><Link to="/" id="info"><FontAwesomeIcon icon="coffee"/>HOME</Link></div>
                         </Col>
                         <Col>
-                            <div><Link to="/" id="info">HOME</Link></div>
+                            <div><Link to="book" id="info">BOOK</Link></div>
                         </Col>
-                        
                         <Col>
                         <img src={logo} alt="Parliament Paintball" className="logo"/>
                         </Col>
@@ -46,11 +48,13 @@ const Navigation = () => {
                         <Col>
                         <div>   
                         <Dropdown title="ACCOUNT" id="info">
-                            <Dropdown.Item as={Link} to= "settings" id="item">SETTINGS</Dropdown.Item>
                             <Dropdown.Item as={Link} to= "dashboard" id="item">DASHBOARD</Dropdown.Item>
                         </Dropdown>
                         </div>
                         </Col>
+                        <Col>
+                <LanguageSwitcher /> {/* Include the LanguageSwitcher */}
+              </Col>
                         </Row>
                     </Nav>
                 </Navbar.Collapse>

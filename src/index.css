@@ -156,7 +156,7 @@
 }
 
 .top-container{
-  background-color: #CCCCCC; 
+ 
   text-align: center;
 }
 .infoCol{
@@ -174,7 +174,7 @@
   color: black;
 }
 .info-head{
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -185,6 +185,10 @@
 }
 
 .info-row{
+  padding-top: 20px;
+}
+
+.events-row{
   padding-top: 20px;
   padding-bottom: 20px;
 }
