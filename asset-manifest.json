@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/SEG3125_Project_2_Final/static/css/main.b6878838.css",
-    "main.js": "/SEG3125_Project_2_Final/static/js/main.ce75ac73.js",
+    "main.css": "/SEG3125_Project_2_Final/static/css/main.51fea05d.css",
+    "main.js": "/SEG3125_Project_2_Final/static/js/main.d1ddfef9.js",
     "static/js/453.b2ee975d.chunk.js": "/SEG3125_Project_2_Final/static/js/453.b2ee975d.chunk.js",
+    "static/media/info.jpeg": "/SEG3125_Project_2_Final/static/media/info.2f668a0f59e4f6ce6c0d.jpeg",
     "static/media/fa-solid-900.svg": "/SEG3125_Project_2_Final/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/SEG3125_Project_2_Final/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/home.jpg": "/SEG3125_Project_2_Final/static/media/home.7da3528a190dd86e90d2.jpg",
@@ -27,12 +28,12 @@
     "static/media/fa-regular-400.woff": "/SEG3125_Project_2_Final/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/SEG3125_Project_2_Final/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/SEG3125_Project_2_Final/index.html",
-    "main.b6878838.css.map": "/SEG3125_Project_2_Final/static/css/main.b6878838.css.map",
-    "main.ce75ac73.js.map": "/SEG3125_Project_2_Final/static/js/main.ce75ac73.js.map",
+    "main.51fea05d.css.map": "/SEG3125_Project_2_Final/static/css/main.51fea05d.css.map",
+    "main.d1ddfef9.js.map": "/SEG3125_Project_2_Final/static/js/main.d1ddfef9.js.map",
     "453.b2ee975d.chunk.js.map": "/SEG3125_Project_2_Final/static/js/453.b2ee975d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6878838.css",
-    "static/js/main.ce75ac73.js"
+    "static/css/main.51fea05d.css",
+    "static/js/main.d1ddfef9.js"
   ]
 }
