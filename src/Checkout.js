@@ -4,12 +4,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
-import { Link  } from 'react-router-dom';
+import { Link , useHistory } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 const Checkout = () => {
-    
+    const history = useHistory();
+
     function generateBooking() {
         const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         const numbers = '0123456789';
@@ -25,11 +28,18 @@ const Checkout = () => {
         return result;
     }
 
-
     const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const [bookingNumber, setBookingNumber] = useState('');
+    const handleClose = () => {
+        setShow(false);
+        history.push('/'); // Redirect to the homepage
+    };
+    const handleShow = () => {
+        const booking = generateBooking();
+        setBookingNumber(booking);
+        localStorage.removeItem('bookingForm');
+        setShow(true);
+    };
 
     return (  
         
@@ -40,7 +50,8 @@ const Checkout = () => {
                     <Col></Col>
                     <Col>
                         <form className='form'>
-                            <h1 className='rule-text'>CHECKOUT</h1>
+                            
+                           <Link to="book" ><h1 className='rule-text'><FontAwesomeIcon icon={faArrowLeft} />&nbsp;CHECKOUT</h1></Link>
 
                             <div class="form-check">
   
@@ -68,7 +79,7 @@ const Checkout = () => {
                                 <br/>
                                 <br/>
                                 
-                                <div className='book-btn'><Button onclick={handleShow} variant="danger" size='lg' ><h1>PAY</h1></Button> </div>
+                                <div className='book-btn'><Button onClick={handleShow} variant="danger" size='lg' ><h1>PAY</h1></Button> </div>
                                 <br/>
                                                
                             </div>
@@ -83,7 +94,7 @@ const Checkout = () => {
                 <Modal.Header closeButton>
                     <Modal.Title>Payment Confirmation</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                <Modal.Body>Your order number is: {bookingNumber}.</Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose}>
                         OK

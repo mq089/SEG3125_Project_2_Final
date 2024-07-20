@@ -16,20 +16,20 @@ import { useLanguage } from './contexts/LanguageContext';
 const Navigation = () => {
     const { language } = useLanguage();
 
-    const en_home = "HOME"
-    const fr_home = "ACCUEIL"
-    const en_book = "BOOK"
-    const fr_book = "RÉSERVER"
-    const en_gen = "GENERAL INFORMATION"
-    const fr_gen = "INFORMATIONS GÉNÉRALES"
-    const en_rules = "RULES"
-    const fr_rules = "RÈGLES"
-    const en_event = "EVENTS"
-    const fr_event = "ÉVÉNEMENTS"
-    const en_pack = "PACKAGES"
-    const fr_pack = "PAQUETS"
-    const en_dash ="DASHBOARD"
-    const fr_dash = "TABLEAU DE BORD"
+    const en_home = "HOME";
+    const fr_home = "ACCUEIL";
+    const en_book = "BOOK";
+    const fr_book = "RÉSERVER";
+    const en_gen = "GENERAL INFORMATION";
+    const fr_gen = "INFORMATIONS GÉNÉRALES";
+    const en_rules = "RULES";
+    const fr_rules = "RÈGLES";
+    const en_event = "EVENTS";
+    const fr_event = "ÉVÉNEMENTS";
+    const en_pack = "PACKAGES";
+    const fr_pack = "PAQUETS";
+    const en_dash ="DASHBOARD";
+    const fr_dash = "TABLEAU DE BORD";
 
     const home = language === 'english' ? en_home : fr_home;
     const book = language === 'english' ? en_book : fr_book;

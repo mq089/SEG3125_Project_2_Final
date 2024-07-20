@@ -386,3 +386,8 @@ resize: none;
   margin-left: 10px;
 }
 
+.faceted-col{
+  text-align: left;
+  background-color: #333;
+  color: white;
+}

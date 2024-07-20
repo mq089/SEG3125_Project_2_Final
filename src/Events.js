@@ -15,20 +15,20 @@ const Events = () => {
     
     const { language } = useLanguage();
 
-    const english_title = "Events"
+    const english_title = "Events";
     const french_title = "Événements"
-    const en_desc = "We serve a variety of events depending on your needs!"
-    const fr_desc = "Nous servons une variété d'événements en fonction de vos besoins!"
-    const english_button = "BOOK NOW!"
-    const french_button = "RESERVE MAINTENANT!"
-    const en_birthday = "Birthday Parties"
-    const fr_birthday = "Fêtes d'anniversaire"
-    const en_company = "Company Parties"
-    const fr_company = "Fêtes d'entreprise"
-    const en_group = "Group Events"
-    const fr_group = "Événements de groupe"
-    const en_ind = "Individual Events"
-    const fr_ind = "Événements individuels"
+    const en_desc = "We serve a variety of events depending on your needs!";
+    const fr_desc = "Nous servons une variété d'événements en fonction de vos besoins!";
+    const english_button = "BOOK NOW!";
+    const french_button = "RESERVE MAINTENANT!";
+    const en_birthday = "Birthday Parties";
+    const fr_birthday = "Fêtes d'anniversaire";
+    const en_company = "Company Parties";
+    const fr_company = "Fêtes d'entreprise";
+    const en_group = "Group Events";
+    const fr_group = "Événements de groupe";
+    const en_ind = "Individual Events";
+    const fr_ind = "Événements individuels";
 
     const title = language === 'english' ? english_title : french_title;
     const desc = language === 'english' ? en_desc: fr_desc;

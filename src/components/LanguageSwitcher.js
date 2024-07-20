@@ -8,7 +8,7 @@ import { FR } from 'country-flag-icons/react/3x2'
 
 const LanguageSwitcher = () => {
   const { language, switchLanguage } = useLanguage();
-
+  
   return (
     <div className="language-switcher">
       <div className='lang'>Language/Langue:</div>
