@@ -391,3 +391,45 @@ resize: none;
   background-color: #333;
   color: white;
 }
+
+.form-check {
+    position: relative;
+}
+
+
+.error-date{
+  color: red;
+  margin-left: 0px;
+  position: absolute;
+}
+
+.error-event{
+  color: red;
+  margin-left: 267px;
+  position: absolute;
+}
+
+.error-group{
+  color: red;
+  margin-left: 0px;
+  position: absolute;
+}
+
+.error-first{
+  color: red;
+  margin-left: 0px;
+  position: absolute;
+}
+
+.error-last{
+  color: red;
+  margin-left: 240px;
+  position: absolute;
+
+}
+
+.error-phone{
+  color: red;
+  margin-left: 240px;
+  position: absolute;
+}

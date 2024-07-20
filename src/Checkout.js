@@ -41,6 +41,7 @@ const Checkout = () => {
         setShow(true);
     };
 
+
     return (  
         
         <div className="rules">
@@ -56,7 +57,7 @@ const Checkout = () => {
                             <div class="form-check">
   
                                 <h5 className='rule-text'>Billing Address:</h5>
-                                <textarea className="address" rows="1" cols="50">Street Address Line 1</textarea>
+                                <textarea className="address" rows="1" cols="50" placeholder="Street Address Line 1"></textarea>
                                 <br/>
                                 <br/>
                                 <input className='check-input-left' type="text"  id="city" name="city" placeholder="City"/>
@@ -68,7 +69,7 @@ const Checkout = () => {
                                 <br/>
                                 <br/>
                                 <h5 className='rule-text'>Payment Info</h5>
-                                <textarea className="address" rows="1" cols="50">Credit Card Number</textarea>
+                                <textarea className="address" rows="1" cols="50" type="text" placeholder="Credit Card Number" ></textarea>
                                 <br/>
                                 <br/>
                                 <input className='check-input-left' type="text"  id="exp" name="exp" placeholder="EXP"/>

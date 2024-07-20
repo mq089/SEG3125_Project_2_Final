@@ -7,6 +7,7 @@ import Packages from './Packages';
 import Book from './Book';
 import Checkout from './Checkout';
 import Dashboard from './Dashboard';
+import Faq from './Faq';
 
 import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -49,6 +50,9 @@ function App() {
             </Route>
             <Route exact path="/dashboard">
               <Dashboard />
+            </Route>
+            <Route exact path="/faq">
+              <Faq />
             </Route>
           </Switch>
         </div>

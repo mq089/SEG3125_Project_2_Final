@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 import LanguageSwitcher from './components/LanguageSwitcher'; 
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook, faCakeCandles, faChartSimple, faCircleInfo, faCube, faGavel, faHouse, faInfo } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faCakeCandles, faChartSimple, faCircleInfo, faCube, faGavel, faHouse, faInfo, faQuestion, faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
 import { useLanguage } from './contexts/LanguageContext';
 
 
@@ -63,6 +63,7 @@ const Navigation = () => {
                                     <Dropdown id="info" title="INFO">
                                         <Dropdown.Item as={Link} to= "info" id="item"><FontAwesomeIcon icon={faCircleInfo}/> &nbsp;{gen}</Dropdown.Item>
                                         <Dropdown.Item as={Link} to= "rules" id="item"><FontAwesomeIcon icon={faGavel} />&nbsp;{rules}</Dropdown.Item>
+                                        <Dropdown.Item as={Link} to= "faq" id="item"><FontAwesomeIcon icon={faQuestionCircle} />&nbsp;FAQ</Dropdown.Item>
                                     </Dropdown>
                                 </div>
                             </Col>
